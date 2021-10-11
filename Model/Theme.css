@@ -1,0 +1,94 @@
+/*
+    Description: Custom colour scheme used for the website.
+    to be called after any bootstrap files
+    this will overite the standard bootstrap colours.
+
+    Author: David McRae
+ */
+body, .form-control, .input-group-text, .custom-select, .list-group-item
+{
+  background-color: #17181c;
+  color:#17a2b8;
+}
+
+.card
+{
+  width:100%;
+}
+
+.homePage
+{
+  height:30rem;
+}
+.specififc
+{
+  height:50rem;
+}
+
+.carousel-card
+{
+  min-height:15rem;
+  padding-left:4rem;
+  padding-right:4rem;
+}
+
+.carousel-card-employee
+{
+  min-height:15rem;
+  padding-left:10rem;
+  padding-right:10rem;
+}
+
+.carousel-control-prev, .carousel-control-next
+{
+  margin-top: 3rem;
+}
+
+.carousel-indicators
+{
+  margin-bottom: 0.25rem;
+}
+
+.showingTime
+{
+  margin-bottom: 19px;
+  padding: .375rem .5rem;
+}
+
+.card-body, .card-title, .card-text, .card-header
+{
+    background-color: #2a2c33;
+    color: #ffffff;
+    text-decoration:none;
+}
+hr
+{
+  background-color: #2a2c33;
+  color: #2a2c33;
+}
+h1, h2, text, .text
+{
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 400px)
+{
+  .homePage
+  {
+    height:30rem;
+  }
+  .moviePage
+  {
+    height:30rem;
+  }
+  h1
+  {
+  font-size: 2rem;
+  }
+}
+
+input[readonly], input[value], textarea, select[value]
+{
+    background-color: #17181c !important;
+    color: #ffffff !important;
+}
